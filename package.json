@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-sketch",
+  "version": "0.1.0",
+  "description": "An eslint config for sketch plugin development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieudutour/eslint-config-sketch.git"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "sketch"
+  ],
+  "author": "Mathieu Dutour <mathieu@dutour.me> (http://mathieu.dutour.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathieudutour/eslint-config-sketch/issues"
+  },
+  "homepage": "https://github.com/mathieudutour/eslint-config-sketch#readme"
+}
