@@ -51,6 +51,19 @@ module.exports = {
     MSStyleShadow: false,
     MSTextLayer: false,
     NSColor: false,
+    CGRectMake: false,
+    NSBezierPath: false,
+    MSShapePathLayer: false,
+    MSOvalShape: false,
+    MSRectangleShape: false,
+    MSShapeGroup: false,
+    CGPointMake: false,
+    MSSymbolInstance: false,
+    MSSymbolMaster: false,
+    NSFont: false,
+    MSStyleBlur: false,
+    NSFileManager: false,
+    MSImmutableColor: false
   },
 
   rules: {
