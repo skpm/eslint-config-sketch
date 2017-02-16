@@ -1,10 +1,15 @@
 {
   "name": "eslint-config-sketch",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "An eslint config for sketch plugin development",
   "main": "index.js",
+  "files": [
+    "globals.json",
+    "index.js"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node ./build.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -23,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/mathieudutour/eslint-config-sketch/issues"
   },
-  "homepage": "https://github.com/mathieudutour/eslint-config-sketch#readme"
+  "homepage": "https://github.com/mathieudutour/eslint-config-sketch#readme",
+  "devDependencies": {
+    "child-process-promise": "2.2.0"
+  }
 }
