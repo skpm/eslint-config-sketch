@@ -24,7 +24,7 @@ exec('rm -rf .headers').catch(() => {})
   const res = files.reduce((prev, f) => {
     prev[f.split('-')[0].replace('.h', '')] = false
     return prev
-  }, {})
+  }, require('./injectedConstants.json'))
 
   return new Promise((resolve, reject) => fs.writeFile('./globals.json', JSON.stringify(res), (err, res) => {
     if (err) { return reject(err) }

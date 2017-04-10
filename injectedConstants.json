@@ -1,0 +1,14 @@
+{
+	"NSApp": false,
+	"NSTask": false,
+	"NSPipe": false,
+	"NSUTF8StringEncoding": false,
+	"NSException": false,
+	"NSMakeRect": false,
+	"NSButton": false,
+	"NSComboBox": false,
+	"NSBundle": false,
+	"NSScrollView": false,
+	"NSLineBorder": false,
+	"NSMakeSize": false
+}
