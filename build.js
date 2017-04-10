@@ -22,8 +22,7 @@ exec('rm -rf .headers').catch(() => {})
 .then((files) => {
   console.log('[4/4] Writing globals')
   const res = files.reduce((prev, f) => {
-    if (f.indexOf('-') !== -1) { return prev }
-    prev[f.replace('.h', '')] = false
+    prev[f.split('-')[0].replace('.h', '')] = false
     return prev
   }, {})
 
