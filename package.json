@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sketch",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "description": "An eslint config for sketch plugin development",
   "main": "index.js",
   "files": [
